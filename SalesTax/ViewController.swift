@@ -45,6 +45,8 @@ class ViewController: UIViewController {
         let salesTax = beforeTaxPrice * salesTaxRate / 100
         let afterTaxPrice = beforeTaxPrice + salesTax
         
+        print(afterTaxPrice)
+        
         afterTaxPriceTextField.text = String(afterTaxPrice)
     }
     
